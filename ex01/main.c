@@ -1,6 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    printf("Hello World!\n你好，世界！");
+    char str[100];
+    printf("请输入：");
+    gets(str);
+    printf("输出：%s",str);
     return 0;
 }
